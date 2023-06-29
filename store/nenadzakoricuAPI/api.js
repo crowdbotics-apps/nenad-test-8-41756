@@ -1,6 +1,6 @@
 import axios from "axios"
 const nenadzakoricuAPI = axios.create({
-  baseURL: "https://nenad-za-koricu-41756.botics.co",
+  baseURL: "https://nenad-test-8-41756.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
